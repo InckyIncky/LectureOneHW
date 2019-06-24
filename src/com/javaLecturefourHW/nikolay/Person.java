@@ -1,6 +1,6 @@
 package com.javaLecturefourHW.nikolay;
 
-public class Person implements Comparable<Person> /*,Walkable<Person>*/ {
+public class Person implements Comparable<Person>, Walkable {
     private String name;
     private String surname;
     private int age;
@@ -73,10 +73,20 @@ public class Person implements Comparable<Person> /*,Walkable<Person>*/ {
 
     }
 
-//    @Override
-//    public int walk(int speed, int walkTime) {
-//        return this.speed * this.walkTime;
-//     }
+    @Override
+    public int walk() {
+        return this.speed * this.walkTime;
+    }
+
+    public String reachedGoal() {
+        int result = MAX_WALK_DISTANCE - this.walk();
+        if (result > 0) {
+            return " Distance is not covered";
+        } else {
+            return " Distance covered";
+        }
+
+    }
 
 
 }

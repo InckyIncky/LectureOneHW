@@ -1,4 +1,4 @@
-package com.com.javaLectureThreeHW.nikolay;
+package com.javaLectureThreeHW.nikolay;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -53,6 +53,7 @@ public class Pen {
 
     public static void main(String[] args) {
         Pen parker = new Pen("colour",0.0,"noname" );
+        System.out.println(parker.toString());
         parker.setColour("blue");
         parker.setWidth(0.7);
         parker.setOwner("Nikifor");
