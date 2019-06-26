@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Pen {
-    String colour;
-    double width;
-    String owner;
+    private String colour;
+    private double width;
+    private String owner;
     public Pen(String colour, double width, String owner) {
         this.colour = colour;
         this.width = width;
