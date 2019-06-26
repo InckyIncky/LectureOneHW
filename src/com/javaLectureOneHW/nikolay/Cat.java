@@ -3,12 +3,12 @@ package com.javaLectureOneHW.nikolay;
 import com.javaLectureOneHW.nikolay.Animal;
 
 public class Cat extends Animal {
-    String breed;
-    int age;
-    double weight;
-    String name;
-    String says;
-    boolean wild;
+    private String breed;
+    private int age;
+    private double weight;
+    private String name;
+    private String says;
+    private boolean wild;
 
     public Cat(String breed, int age, double weight, String name, String says, boolean wild){
         breed = breed;

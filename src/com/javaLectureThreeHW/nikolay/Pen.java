@@ -27,9 +27,7 @@ public class Pen {
     public void setOwner(String owner) {
         this.owner = owner;
     }
-    public String getOwner() {
-        return this.owner;
-    }
+    public String getOwner() { return this.owner; }
 
     @Override
     public boolean equals(Object o) {

@@ -14,8 +14,9 @@ public class Main {
         Person ippolit = new Person("Afanasiy", "Shmekhelson", 57, 1, 2);
         Person saveliy = new Person("Saveliy", "Popov", 41, 6, 10);
         Person arkadiy = new Person("Arkadiy", "Lochmann", 37, 4, 20);
+        Person afanasiy3 = new Person("Afanasiy", "Gradin", 10, 2, 10);
 
-        Person[] mujiki = new Person[]{nikifor, afanasiy, luka, ippolit, saveliy, arkadiy};
+        Person[] mujiki = new Person[]{nikifor, afanasiy, luka, ippolit, saveliy, arkadiy, afanasiy3};
         for (int i = 0; i < mujiki.length; i++) {
 
             System.out.println(mujiki[i].getName());

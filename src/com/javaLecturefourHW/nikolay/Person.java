@@ -62,6 +62,8 @@ public class Person implements Comparable<Person>, Walkable {
 
         if (result != 0) return result;
         result = this.surname.compareTo(pers.surname);
+        if (result != 0) return result;
+        result = this.age - pers.age;
         return result;
 
     }
