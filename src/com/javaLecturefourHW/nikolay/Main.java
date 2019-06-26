@@ -24,10 +24,13 @@ public class Main {
         System.out.println();
 
         Arrays.sort(mujiki);
-        for (Person p : mujiki) System.out.println(p);
+        for (Person p : mujiki) {
+            System.out.println(p);
+        }
 
-        for (Person p : mujiki)
+        for (Person p : mujiki) {
             System.out.println(p.getName() + " " + p.getSurname() + " walked " + p.walk() + " km. " + p.reachedGoal());
+        }
 
         System.out.println();
 
