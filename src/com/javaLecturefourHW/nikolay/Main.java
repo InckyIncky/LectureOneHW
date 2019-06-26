@@ -26,7 +26,8 @@ public class Main {
         Arrays.sort(mujiki);
         for (Person p : mujiki) System.out.println(p);
 
-        for (Person p : mujiki) System.out.println(p.getName() + " " + p.getSurname() + " walked " + p.walk() + " km. " + p.reachedGoal());
+        for (Person p : mujiki)
+            System.out.println(p.getName() + " " + p.getSurname() + " walked " + p.walk() + " km. " + p.reachedGoal());
 
         System.out.println();
 
@@ -35,7 +36,8 @@ public class Main {
         Pet archi = new Pet("Archi", "Dog", 10, 13, 3, "Luka");
         Pet bandit = new Pet("Bandit", "Coon", 5, 15, 24, "Afanasiy");
         Pet[] jivnost = new Pet[]{juchka, murka, archi, bandit};
-        for (Pet p : jivnost) System.out.println(p.getName() + " " + p.getSpiecies() + " walked " + p.walk() + " km. " + p.reachedGoal());
+        for (Pet p : jivnost)
+            System.out.println(p.getName() + " " + p.getSpiecies() + " walked " + p.walk() + " km. " + p.reachedGoal());
 
     }
 }
