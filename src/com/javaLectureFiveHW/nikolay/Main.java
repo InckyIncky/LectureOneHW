@@ -12,6 +12,14 @@ public class Main {
         Palindrome ara = new Palindrome("ara");
 
         String word1 = ara.getWord1();
+        String a = "кабак";
+        String b = "шабаш";
+
+        a.compareToIgnoreCase(b);
+/*
+Варианты добавить валидацию чисел - CHARACTER isDigit или isLetter
+
+ */
 
         ara.isPalindrome();
 
@@ -37,7 +45,6 @@ public class Main {
                     ara.isPalindrome();
                     break begin;
                 }
-
 
             }
     }
