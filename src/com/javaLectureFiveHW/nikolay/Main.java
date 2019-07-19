@@ -13,11 +13,6 @@ public class Main {
 
         String word1 = ara.getWord1();
 
-/*
-Варианты добавить валидацию чисел - CHARACTER isDigit или isLetter
-
- */
-
         ara.isPalindrome();
 
         System.out.println("A cicle started, please, enter \"quit\" to quit");
@@ -42,9 +37,7 @@ public class Main {
                     ara.isPalindrome();
                     break begin;
                 }
-
             }
-//        in.close();
     }
 }
 
